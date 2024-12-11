@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Wedding of Andi & Mutiara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- simply countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css"/>
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <!--  -->
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--  -->
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada Saudara/i,</h4>
+        <h1>Andi & Mutiara</h1>
+        <p>Akan Melangsungkan Resepsi Pernikahan Dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+      </main>
+    </section>
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Andi&Mutiara</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Andi&Mutiara</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#story">Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rsvp">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gift">Gift</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada Tanggal 02 Februari 2025 di Ciamis, Jawa Barat.</h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Saudara/i, untuk hadir pada acara pernikahan kami.</p>
+          </div>
+        </div>
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Andi Gumilar</h3>
+                <p>Menurutku Mutiara adalah wanita yang cantik, mandiri, bekerja keras, dan selalu memiliki rencana jauh kedepannya.  Aku sangat kagum padanya dan merasa terpikat oleh kepribadian dan kualitas lain yang dimilikinya. Aku sangat mencintainya dan merasa bersyukur bisa memiliki seseorang seperti Mutiara dalam hidupku.</p>
+                <p>
+                  Putra dari Bpk.Ipan Mulyana <br />
+                  dan <br />
+                  Ibu Dian Ida Farida
+                </p>
+              </div>
+              <div class="col-4">
+                <img src="assets/images/background1.jpeg" alt="Andi Gumilar" class="img-responsive rounded-rectangle" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="assets/images/background1.jpeg" alt="Mutiara" class="img-responsive rounded-rectangle" />
+              </div>
+              <div class="col-8 text-start">
+                <h3>Mutiara Amalia Maulidini, A.Md.Farm</h3>
+                <p>keberuntungan yang tidak bisa di deskripsikan and i'm so glad to be yours. dipertemukan dengan lelaki yang tampan, tangguh, penyayang, dan pekerja keras it was a great blessing in my life. memiliki prinsip hidup yang searah dan sejalan sampai pada akhirnya sepakat untuk saling menetap dan hidup bersama. let's grow old together and create our own happiness</p>
+                <p>
+                  Putri dari Bpk. Asep Tahyan Yohana <br />
+                  dan <br />
+                  Ibu Yayah Rokayah
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Dusun Cibelah RT 03 RW  01 Desa Sidamulya, Kec. Cisaga Kab. Ciamis</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1478.8459043896041!2d108.467188!3d-7.316786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTknMDAuNCJTIDEwOMKwMjgnMDEuOSJF!5e1!3m2!1sen!2sid!4v1733643914912!5m2!1sen!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://maps.app.goo.gl/sAENSSLxj6xuQSo97" target="_blank" class="btn btn-light btn-sm my-3" b>Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda - tanda sedang dilangsungkan pernikahan, boleh jadi salah jadwal atau salah tempat.</p>
+          </div>
+        </col-10>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>09.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 02 Februari 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan saat perlangsungnya akad pernikahan
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 02 Februari 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan saat perlangsungnya akad pernikahan
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Cerita Kami</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(assets/images/background1.jpeg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>2020</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Di tahun 2020 pertama kali kenal lewat sosmed, dikenalkan sama teman dan kebetulan temannya sama.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(assets/images/background1.jpeg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai Menjalin Hubungan</h3>
+                    <span>2020</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Mulai menjalin hubungan di tahun yg sama berjalan  mengalir aja tanpa ada yg mengungkapkan perasaan satu sama lain ya karena udah tau klo kita udh saling tertarik, uniknya malah tgl jadian aja buat sendiri .</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(assets/images/background1.jpeg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Tunangan</h3>
+                    <span>tangal bertemu iraha?</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Menjalin hubungan sekitar 4 tahun dari 2020 sampai 2024 tidak ada tunangan, hanya pertemuan sederhana kedua keluarga dan dari pertemuan tersebut langsung ditentukannya tanggal pernikahan, kita langsung lanjut ke pernikahan di tahun 2025</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Galeri</h2>
+          </div>
+        </div>
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+          <div class="col mt-3">
+           <a href="assets/images/background1.jpeg" data-toggle="lightbox" data-caption="Andi & Muti 1">
+            <img src="assets/images/background1.jpeg" alt="Andi & Muti 1" class="img-fluid w-100 rounded">
+           </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
+          </div>
+        </div>
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" 
+        action="https://script.google.com/macros/s/AKfycbyJ0s5w7lmixpCX_loZMP_V1SS1jbxvlidzANQ0tOOcrvzFJYQ7K4-KWlJO1c3hcwjvWA/exec" id="my-form">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input type="number" class="form-control" id="jumlah" name="jumlah">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+              <option selected>Pilih Salah Satu</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak Hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px;">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gift" class="gift" >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Kirim Hadiah</h2>
+            <p>Bagi saudara/i yang ingin mengirimkan hadiah pernikahan dapat melalui virtual account atau e-wallet di bawah ini:</p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <span class="d-block fw-bold">BRI</span>
+                4020 0102 3238 535 - Mutiara Amalia Maulani
+              </li>
+              <li class="list-group-item">
+                <span class="d-block fw-bold">Dana</span>
+                0895-2931-8158 - Mutiara Amalia Maulani
+              </li>
+              <li class="list-group-item">
+                <span class="d-block fw-bold">BRI</span>
+                4052 0102 1496 532 - Andi Gumilar
+              </li>
+              <li class="list-group-item">
+                <span class="d-block fw-bold">Dana</span>
+                0821-1692-8114 - Andi Gumilar
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2025 AldiMayus. All Right Reserved</small>
+            <small class="block">Design by <a href="https://www.instagram.com/aldimayus_">@AldiMayus__</a></small>
+            <ul class="mt-3">
+              <li><a href=""><i class="bi bi-instagram"></i></a></li>
+              <li><a href=""><i class="bi bi-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="assets/music/Rodrigo Amarante - Tuyo (Narcos Theme Song) [Lyrics video].mp4" type="audio/mp3">
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      // This is an example with default parameters
+    // You'll always have to call simplyCountdown using ID's, no classes.
+
+    simplyCountdown('.simply-countdown', {
+        year: 2025, // Target year (required)
+        month: 2, // Target month [1-12] (required)
+        day: 2, // Target day [1-31] (required)
+        hours: 8, // Target hour [0-23], default: 0
+        words: { // Custom labels, with lambda for plurals
+            days: { root: 'Hari', lambda: (root, n) => n > 1 ? root + '' : root },
+            hours: { root: 'Jam', lambda: (root, n) => n > 1 ? root + '' : root },
+            minutes: { root: 'Menit', lambda: (root, n) => n > 1 ? root + '' : root },
+            seconds: { root: 'Detik', lambda: (root, n) => n > 1 ? root + '' : root }
+        },
+    });    
+    </script>
+
+    
+    
+    <Script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+      const audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const song = document.querySelector('#song');
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+        
+        window.onscroll = function(){
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+      
+      function enableScroll(){
+        window.onscroll = function () { }
+        rootElement.style.scrollBehavior = 'smooth';
+        // localStorage.setItem('open', 'true');
+
+        playAudio();
+      }
+
+      function playAudio() {
+          song.volume = 0.5;
+          audioIconWrapper.style.display = 'flex';
+          song.play();
+          isPlaying = true;
+        }  
+
+        audioIconWrapper.onclick = function() {
+        if(isPlaying){
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        }else {
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isPlaying = !isPlaying;
+        }
+
+      // if(!localStorage.getItem('opened')) {
+        // disableScroll();
+      // }
+      disableScroll();
+    </Script>
+
+    <script>
+      window.addEventListener("load", function() {
+        const form = document.getElementById('my-form');
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: 'POST',
+            body: data,
+          })
+            .then(() => {
+              alert("Konfirmasi Terkirim!");
+            })
+        });
+      });
+    </script>
+  </body>
+</html>
